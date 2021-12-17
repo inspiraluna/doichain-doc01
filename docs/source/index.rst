@@ -19,15 +19,25 @@ the open, decentralized and permissionless merged-mining PoW-blockchain.
 - :doc:`getting_started`
    - Request a Double Opt-In 
    - Architecture
-   - Setup your DOI-Request Node via docker
+   - Setting up a DOI request node via docker
+   - Setting up a DOI validator node via docker
    - Start a hosted version of Doichain Node & DoiWorks-API
    - Doichain Explorer
-   - Doichain Wallets 
+   - Doichain Wallets
+      - DoiWallet (Android / iOS)
+      - Electrum-DOI (Linux / MacOs / Windows)
+      - Doichain-QT (Linux / MacOs / Windows)
    - Buy & Sell DOI
    - FAQ - https://www.doichain.org/en/haeufig-gestellte-fragen/
 - Developer 
-   - DoiWorks-API
-- Community 
+   - DoiWorks-API https://github.com/Doi-Works/api/blob/master/doc/en/json-rpc-api.md
+   - UML-Activity Diagram https://github.com/Doi-Works/api/blob/master/doc/en/uml.md#activity-diagram
+   - UML-Activity https://github.com/Doi-Works/api/blob/master/doc/en/uml.md#sequence-diagram
+   - Testnet Node Setup
+   - Regtest Node Setup
+- Community
+   - Telegram https://t.me/doichain
+   - Twitter https://twitter.com/doichain/
 
 
 
