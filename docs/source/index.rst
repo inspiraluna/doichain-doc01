@@ -1,9 +1,9 @@
 DoiWorks documentation
 ======================
 
-A protocol and a set of tools for a fraud-resistant verification and documentation 
-of Double Opt-In´s in email marketing environment on Doichain http://www.doichain.org, 
-the open, decentralized and permissionless merged-mining PoW-blockchain.
+DoiWorks is a protocol and a set of tools for fraud-resistant verification and documentation 
+of Double Opt-In´s in email marketing environments on the Doichain blockchain, http://www.doichain.org, 
+an open, decentralized and permissionless merged-mining PoW-blockchain.
 
 .. note::
 
