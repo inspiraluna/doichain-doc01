@@ -32,11 +32,18 @@ Please read on: How Self-Decentralizing System
 
 Self Decentralizing System
 --------------------------
+I critical analyst of the Doiworks Double Opt-In Protocol might instantly remark, that a centralized fallback 
+validator isn't a good solution according to decentralized blockchain principles. To answer this question 
+it needs to be pointed out that a fallback Doichain validator is only necessary until the time when every bigger email provider 
+is running a DoiWorks validator. Everbody who doesn't like the centralized approach of the Doichain validator 
+can run its own node when ever he likes in a decentralized way for it's own responsible email domains. 
+
+Further on we want to refer to the chapter "Email Domain Rewards And Staking"
 
 .. _email_domain_rewards_and_staking:
 
-Email Domain Rewards And Staking (EDRAS)
-----------------------------------------
+Email Domain Rewards And Staking
+--------------------------------
 
 .. _history:
 
