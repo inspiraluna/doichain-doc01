@@ -36,7 +36,7 @@ A blockchain analyst of the Double Opt-In Protocol might instantly remark, that 
 validator isn't a good solution according to decentralized blockchain principles.
 
 Here it needs to be pointed out that a fallback Doichain validator is only necessary until email providers  
-run their own validator. Ever email user who doesn't like the centralized approach of the Doichain validator 
+run their own validator. Every email user who doesn't like the centralized approach of the Doichain validator 
 can run its own node in a decentralized way for all it's own responsible email domains. 
 
 .. _email_domain_staking:
