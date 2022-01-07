@@ -55,7 +55,15 @@ In order to incentivize mass adoption we invented an innovative Email Domain Sta
 
 .. image:: images/eds.png
   :width: 100%
-  :alt: Email domain staking (EDS)   
+  :alt: Email domain staking (EDS) 
+
+DOI-NFTs
+--------
+As NFTs were becoming a widely popular concept of transferable digital ownership, we noticed that our Double-Opt-In 
+transactions on the Doichain blockchain are by default transferable. 
+
+So far we generated random keys in order to refer to given DOI permissions inside its value. (key-value blockchain storage)
+If we use instead of the random key the CIDof an IPFS document, we can same time store NFTs for free when a Double-Opt-In is requested.  
 
 .. _history:
 
@@ -72,6 +80,10 @@ History
 
 Roadmap
 -------
+Q1 - DOI Listing on AtomicDex, DOI Listing on Azbit Crypto Exchange
+Q2 - Implement Doichain v2 - Protocol 
+Q3 - Implement Email domain staking (EDS)
+Q4 - Implement DOI-NFTs 
 
 .. _team:
 

@@ -14,6 +14,7 @@ an open, decentralized and permissionless merged-mining PoW-blockchain.
    - :ref:`alice_bob_and_peter`
    - :ref:`self_decentralizing_system`
    - :ref:`email_domain_staking`
+   - :ref:`doi_nfts`
    - :ref:`history`
    - :ref:`roadmap` 
    - :ref:`team`
