@@ -39,13 +39,11 @@ Here it needs to be pointed out that a fallback Doichain validator is only neces
 run their own validator. Ever email user who doesn't like the centralized approach of the Doichain validator 
 can run its own node in a decentralized way for all it's own responsible email domains. 
 
-Further on we want to refer to the chapter "Email Domain Staking"
-
 .. _email_domain_staking:
 
 Email Domain Staking (EDS)
 --------------------------
-As described in the chapter "Self Decentralizing System" the Doichain-Protocol isn't per se decentralized from the beginning. 
+The DOI-Protocol isn't per se decentralized from the beginning. 
 
 In order to incentivize mass adoption we invented an innovative Email Domain Staking (EDS) model:
 
@@ -63,12 +61,12 @@ In order to incentivize mass adoption we invented an innovative Email Domain Sta
 
 History
 -------
-2017 - fork of Namecoin blockchain Doichain
-2018 - development of prototype DOI-protocol (v0.1)
-2019 
-2020
-2021
-2022
+- 2017 - fork of Namecoin blockchain Doichain
+- 2018 - development of prototype DOI-protocol (v0.1)
+- 2019 
+- 2020
+- 2021
+- 2022
 
 .. _roadmap:
 
