@@ -41,20 +41,23 @@ can run its own node in a decentralized way for all it's own responsible email d
 
 Further on we want to refer to the chapter "Email Domain Staking"
 
-.. _email_domain_rewards_and_staking:
+.. _email_domain_staking:
 
 Email Domain Staking (EDS)
 --------------------------
 As described in the chapter "Self Decentralizing System" the Doichain-Protocol isn't per se decentralized from the beginning. 
 
-In order to incentivize mass adoption we invented an innovative Email Domain Staking concept:
+In order to incentivize mass adoption we invented an innovative Email Domain Staking (EDS) model:
 
-1. Holders of DOI should be able to stake there DOI, receive rewards while beeing insentivized same time to enhance the network effect.
+1. Holders of DOI should be able to stake there DOI, receive rewards while beeing insentivized to enhance the network effect and mass adoption of Doichain.
 2. Holders of DOI are encouraged to stake DOI associated with an email domain (e.g. email@facebook.com, email@yahoo.com, email@google.com).
 3. The validation reward (0.01 DOI) of any Double-Opt-In request which is still served by the fallback Doichain validator fall to the staker of the targetted email domain of the DOI request.
 4. The stake associated with an email domain can be outbid by another staker who wishs to collect validations rewards for that domain.
 5. If an email domain stake is overbid the previous stake is automatically released back to the previuous staker.
-    
+
+.. image:: images/eds.png
+  :width: 400
+  :alt: Alternative text    
 
 .. _history:
 
@@ -66,6 +69,11 @@ History
 2020
 2021
 2022
+
+.. _roadmap:
+
+Roadmap
+-------
 
 .. _roadmap:
 

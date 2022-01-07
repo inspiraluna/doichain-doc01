@@ -13,7 +13,7 @@ an open, decentralized and permissionless merged-mining PoW-blockchain.
    - :ref:`problem_and_challenge`
    - :ref:`alice_bob_and_peter`
    - :ref:`self_decentralizing_system`
-   - :ref:`email_domain_rewards_and_staking`
+   - :ref:`email_domain_staking`
    - :ref:`history`
    - :ref:`roadmap` 
    - :ref:`team`
