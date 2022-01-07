@@ -59,8 +59,9 @@ In order to incentivize mass adoption we invented an innovative Email Domain Sta
 
 DOI-NFTs
 --------
-As NFTs were becoming a widely popular concept of transferable digital ownership, we noticed that our Double-Opt-In 
-transactions on the Doichain blockchain are by default transferable. 
+As NFTs were becoming a widely popular concept of transferable digital content ownership, we noticed that our Double-Opt-In 
+transactions on the Doichain blockchain are by default transferable. So you could say NFTs are transferable Proof-Of-Existence transactions on a blockchain 
+or a DOI-transaction is something like a "NFT for Double Opt-In's". 
 
 So far we generated random keys in order to refer to given DOI permissions inside its value. (key-value blockchain storage)
 If we use instead of the random key the CIDof an IPFS document, we can same time store NFTs for free when a Double-Opt-In is requested.  

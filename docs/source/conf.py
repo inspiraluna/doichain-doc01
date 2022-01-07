@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'DoiWorks'
-copyright = '2021, DoiWorks'
+copyright = '2022, DoiWorks'
 author = 'Nico Krause'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.2'
+version = '0.2.0'
 
 # -- General configuration
 
