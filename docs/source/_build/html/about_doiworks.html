@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About DoiWorks &mdash; DoiWorks 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Usage" href="usage.html" />
+    <link rel="prev" title="DoiWorks documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> DoiWorks
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">About DoiWorks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#problem-challenge">Problem &amp; Challenge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alice-bob-peter">Alice, Bob &amp; Peter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#self-decentralizing-system">Self Decentralizing System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#email-domain-staking-eds">Email Domain Staking (EDS)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#history">History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#roadmap">Roadmap</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DoiWorks</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>About DoiWorks</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/about_doiworks.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="about-doiworks">
+<h1>About DoiWorks<a class="headerlink" href="#about-doiworks" title="Permalink to this headline"></a></h1>
+<section id="problem-challenge">
+<span id="problem-and-challenge"></span><h2>Problem &amp; Challenge<a class="headerlink" href="#problem-challenge" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://www.doichain.org/en/problemstellungen-und-loesungen/">https://www.doichain.org/en/problemstellungen-und-loesungen/</a></p>
+</section>
+<section id="alice-bob-peter">
+<span id="alice-bob-and-peter"></span><h2>Alice, Bob &amp; Peter<a class="headerlink" href="#alice-bob-peter" title="Permalink to this headline"></a></h2>
+<p>On blockchains we send transactions from A to B. In the past we started calling A – Alice and B – Bob.
+We want to reuse this tradition and add another party Peter.</p>
+<p>Peter is an usual email user subscribing to a newsletter at Alice’s ordinary website.
+Alice is a brand, an e-commerce platform or another email marketing party, which intends to send an email to Peter.
+Doing so Alice submits a Doi-request-transaction to the Doichain blockchain and pays a set of fees for that process.
+(Please see: How much does it cost to store a Double Opt-In inside Doichain?)</p>
+<p>Bob is in best case the email provider of Peter, which receives the Doi-request-transaction from Alice
+and hands out the Doi-request-email to Peter. Peters email confirmation (DOI) gets submitted in a second transaction into
+Doichain. Bob receives a reward from Alice for validating Peters email for Alice.</p>
+<p>In case Peters ESP (Email Service Provider) or ISP doesn’t run a Doichain validator yet. DoiWorks provides a fallback validator until
+Peters ESP decides to setup a Doichain validator for its users.
+Please read on: How Self-Decentralizing System</p>
+</section>
+<section id="self-decentralizing-system">
+<span id="id1"></span><h2>Self Decentralizing System<a class="headerlink" href="#self-decentralizing-system" title="Permalink to this headline"></a></h2>
+<p>A blockchain analyst of the Double Opt-In Protocol might instantly remark, that a centralized fallback
+validator isn’t a good solution according to decentralized blockchain principles.</p>
+<p>Here it needs to be pointed out that a fallback Doichain validator is only necessary until email providers
+run their own validator. Ever email user who doesn’t like the centralized approach of the Doichain validator
+can run its own node in a decentralized way for all it’s own responsible email domains.</p>
+<p>Further on we want to refer to the chapter “Email Domain Staking”</p>
+</section>
+<section id="email-domain-staking-eds">
+<span id="email-domain-rewards-and-staking"></span><h2>Email Domain Staking (EDS)<a class="headerlink" href="#email-domain-staking-eds" title="Permalink to this headline"></a></h2>
+<p>As described in the chapter “Self Decentralizing System” the Doichain-Protocol isn’t per se decentralized from the beginning.</p>
+<p>In order to incentivize mass adoption we invented an innovative Email Domain Staking concept:</p>
+<ol class="arabic simple">
+<li><p>Holders of DOI should be able to stake there DOI, receive rewards while beeing insentivized same time to enhance the network effect.</p></li>
+<li><p>Holders of DOI are encouraged to stake DOI associated with an email domain (e.g. <a class="reference external" href="mailto:email&#37;&#52;&#48;facebook&#46;com">email<span>&#64;</span>facebook<span>&#46;</span>com</a>, <a class="reference external" href="mailto:email&#37;&#52;&#48;yahoo&#46;com">email<span>&#64;</span>yahoo<span>&#46;</span>com</a>, <a class="reference external" href="mailto:email&#37;&#52;&#48;google&#46;com">email<span>&#64;</span>google<span>&#46;</span>com</a>).</p></li>
+<li><p>The validation reward (0.01 DOI) of any Double-Opt-In request which is still served by the fallback Doichain validator fall to the staker of the targetted email domain of the DOI request.</p></li>
+<li><p>The stake associated with an email domain can be outbid by another staker who wishs to collect validations rewards for that domain.</p></li>
+<li><p>If an email domain stake is overbid the previous stake is automatically released back to the previuous staker.</p></li>
+</ol>
+</section>
+<section id="history">
+<span id="id2"></span><h2>History<a class="headerlink" href="#history" title="Permalink to this headline"></a></h2>
+<p>2017 - fork of Namecoin blockchain Doichain
+2018 - development of prototype DOI-protocol (v0.1)
+2019
+2020
+2021
+2022</p>
+</section>
+<section id="roadmap">
+<span id="id3"></span><h2>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="DoiWorks documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, DoiWorks.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
